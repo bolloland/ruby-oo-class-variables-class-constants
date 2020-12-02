@@ -9,6 +9,7 @@ class Shoe
       @brand = brand
       BRANDS << brand
       BRANDS.uniq!
+      #binding.pry
       #BRANDS  = all_brands.uniq
     end
     
